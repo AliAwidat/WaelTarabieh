@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: "Cairo";   /*Can be any text*/
+  src: local("Cairo-Regular"),
+    url("./fonts/Cairo-Regular.ttf") format("truetype");
+}
+
+.App {
+  max-width:100%;
+  width:1000px;
+  align-content: center;
+  justify-content: center;
+  margin: 1em auto;
+}
+
+div{
+  text-align: center;
+  font-family: "Cairo";
+
+}
+
+.post-image{
+  max-width: 100%;
+}
+
+.post-title.one{
+  margin: 0.3em;
+  font-weight: bold;
+  font-size: 22px;
+  direction:rtl;
+}
+
+.post-title.two{
+  margin: 0.3em;
+  font-size: 20px;
+  direction:rtl;
+}
+
+.post-content{
+  text-align: justify;
+  direction:rtl;
+  margin:1em;
+  font-size: 20px;
+}
