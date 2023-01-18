@@ -1,11 +1,11 @@
-import logo from './assets/postImage.png';
+import postImage from './assets/postImage.png';
 import './App.css';
-import data from "./post.json";
 function App() {
 
   let data = require('./post.json');
   let postTitle1 = data.postTitle1;
   let postTitle2 = data.postTitle2;
+  let author = data.author;
   let postContent =[];
 
   for(let i=0; i<data.postContent.length;i++){
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
         <div className={"post-image"}>
-            <img src={logo} alt="logo" />
+            <img src={postImage} alt="logo" />
         </div>
 
       <div className={"post-title one"}>
@@ -24,6 +24,10 @@ function App() {
         <div className={"post-title two"}>
         {postTitle2}
       </div>
+        <div className={"post-author"}>
+            <label style={{fontWeight:"bold"}}>الكاتب: </label>
+            {author}
+        </div>
       <div className={"post-content"}>
           {data.postContent.map(function(String,i){return <p>{data.postContent[i]}</p>;})}
       </div>

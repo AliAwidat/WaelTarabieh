@@ -36,6 +36,11 @@ div{
   direction:rtl;
 }
 
+.post-author{
+  direction:rtl;
+  text-align:right;
+  font-size:20px;
+}
 .post-content{
   text-align: justify;
   direction:rtl;
