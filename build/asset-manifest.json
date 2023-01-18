@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AliAwidat/WaelTarabieh/static/css/main.49179441.css",
+    "main.js": "/AliAwidat/WaelTarabieh/static/js/main.467a5fe3.js",
+    "static/media/postImage.png": "/AliAwidat/WaelTarabieh/static/media/postImage.58b7fecb209a938836ba.png",
+    "static/media/Cairo-Regular.ttf": "/AliAwidat/WaelTarabieh/static/media/Cairo-Regular.ee4f13794398ff1bc1c2.ttf",
+    "index.html": "/AliAwidat/WaelTarabieh/index.html",
+    "main.49179441.css.map": "/AliAwidat/WaelTarabieh/static/css/main.49179441.css.map",
+    "main.467a5fe3.js.map": "/AliAwidat/WaelTarabieh/static/js/main.467a5fe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49179441.css",
+    "static/js/main.467a5fe3.js"
+  ]
+}
